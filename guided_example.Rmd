@@ -1,0 +1,31 @@
+---
+title: "Guided Tutorial Rmd"
+author: "Lisa Karstens PhD, Juliette Kudrick"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Purpose 
+
+This script provides example code for tutorial participants to copy and then 
+modify, as part of the RStudio GUI GitHub tutorial.
+
+
+```{r loop_example}
+
+## loop to execute a simple mathematical task of your choice
+
+for(i in 1:10){
+  
+  x <- i**3 ### your code goes here!
+  
+  print(x) 
+  
+}
+
+
+```
